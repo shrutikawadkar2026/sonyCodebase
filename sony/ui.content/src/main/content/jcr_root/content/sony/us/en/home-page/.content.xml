@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2026-04-27T13:47:48.451+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/sony/settings/wcm/templates/home-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Home Page"
+        sling:resourceType="sony/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="sony/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="sony/components/container"
+                layout="responsiveGrid"/>
+            <primarytout
+                jcr:created="{Date}2026-04-25T15:04:00.870+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2026-04-25T16:21:17.982+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="sony/components/content/primaryTout"
+                buttonName="Learn More"
+                buttonPath="https://www.google.com/"
+                primaryToutName="/content/dam/sony/Bravia_4000x980_D_Raja Mouli Banner.jpg"/>
+            <primarytout_1074462108
+                jcr:created="{Date}2026-04-25T17:47:37.445+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2026-04-27T13:43:31.001+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="sony/components/content/primarytout"
+                buttonPath="/content/we-retail/In/en/equipment"
+                buttonText="Learn More"
+                primaryToutDesktopImage="/content/dam/sony/Bravia_4000x980_D_Raja Mouli Banner.jpg"
+                primaryToutNameMobileImage="/content/dam/sony/Bravia_4000x980_D_Raja Mouli Banner.jpg"/>
+            <footnotesmodel
+                jcr:created="{Date}2026-04-25T18:04:43.117+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2026-04-27T13:24:25.312+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="sony/components/content/footnotesmodel"
+                closeLabel="Close Popup"
+                expanded="Close Popup"
+                index="1"
+                label="Footnotes"
+                targetId="Footnotes__Body"
+                text="[Hello welcome to shop,Hello welcome to shop]"/>
+            <title
+                jcr:created="{Date}2026-04-27T13:43:46.837+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2026-04-27T13:44:18.077+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="THE LATEST"
+                sling:resourceType="foundation/components/title"
+                type="large"/>
+            <promotiontiles
+                jcr:created="{Date}2026-04-27T12:24:03.024+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2026-04-27T13:43:41.445+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="sony/components/content/promotiontiles">
+                <tiles jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        eyebrow="dfgdfg"
+                        image="/content/dam/sony/Bravia_4000x980_D_Raja Mouli Banner.jpg"
+                        link="/content/we-retail/In/en/about-us"
+                        tileTitle="jkkkk>"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        image="/content/dam/sony/Family_Master KV_760x960.webp"/>
+                    <item2
+                        jcr:primaryType="nt:unstructured"
+                        image="/content/dam/sony/Promotion_tile_4span_D-12.webp"/>
+                    <item3
+                        jcr:primaryType="nt:unstructured"
+                        image="/content/dam/sony/TVFY25_BRAVIA2II_HP_4span_D.webp"/>
+                </tiles>
+            </promotiontiles>
+            <accordion
+                jcr:created="{Date}2026-04-27T13:45:46.600+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2026-04-27T13:47:48.448+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="sony/components/accordion"
+                expandedItems="[item_1]"
+                singleExpansion="true">
+                <item_1
+                    cq:panelTitle="Item 1"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Item 1"
+                    sling:resourceType="sony/components/container"
+                    layout="responsiveGrid">
+                    <guidetextdraw
+                        jcr:created="{Date}2026-04-27T13:46:20.133+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2026-04-27T13:46:20.133+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="fd/af/components/guidetextdraw"
+                        _value="&lt;p>The text will appear here&lt;/p>"
+                        guideNodeClass="guideTextDraw"
+                        name="textdraw1777277780354"/>
+                </item_1>
+                <item_2
+                    cq:panelTitle="Item 2"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Item 2"
+                    sling:resourceType="sony/components/container"
+                    layout="responsiveGrid">
+                    <guidetextdraw
+                        jcr:created="{Date}2026-04-27T13:46:56.517+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2026-04-27T13:46:56.517+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="fd/af/components/guidetextdraw"
+                        _value="&lt;p>The text will appear here&lt;/p>"
+                        guideNodeClass="guideTextDraw"
+                        name="textdraw1777277816539"/>
+                </item_2>
+                <item_1777277755789
+                    cq:panelTitle="item23"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="sony/components/container">
+                    <guidetextdraw
+                        jcr:created="{Date}2026-04-27T13:47:24.012+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2026-04-27T13:47:24.012+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="fd/af/components/guidetextdraw"
+                        _value="&lt;p>The text will appear here&lt;/p>"
+                        guideNodeClass="guideTextDraw"
+                        name="textdraw1777277844047"/>
+                </item_1777277755789>
+            </accordion>
+        </root>
+    </jcr:content>
+</jcr:root>
